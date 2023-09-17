@@ -2,7 +2,6 @@ import { useContext, useEffect, useRef } from "react";
 import iconCross from "./assets/images/icon-cross.svg";
 import iconCheck from "./assets/images/icon-check.svg";
 import { context } from "./Contexts/context";
-import "animate.css";
 import { Draggable } from "react-beautiful-dnd";
 
 const Todo = ({ task, deleteTodo, toggleComplete, index }) => {
